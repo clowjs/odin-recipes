@@ -2,21 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
-    background-color: rgb(231, 231, 231);
+    background-color: #253659;
 }
 
 .content {
-    width: 80%;
+    width: 40%;
     margin: 10px auto;
     text-align: center;
     border: 1px solid gray;
     border-radius: 8px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #F0F0F2;
 }
 
 .title { 
@@ -24,12 +24,16 @@ html {
     font-size: 40px;
     padding: 8px 20px;
     border: 1px solid black;
-    background-color: antiquewhite;
+    background-color: #253659;
     border-radius: 8px;
+    color: #F0F0F2;
 }
 
 ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .list {
@@ -39,13 +43,22 @@ ul {
 
 a > li {
     padding: 10px;
-    margin: 10px auto;
-    background-color: rgb(177, 118, 76);
+    align-items: center;
+    background-color: #8C2626;
     font-size: 24px;
     border-radius: 8px;
 }
 
 a {
     text-decoration: none;
-    color: #fff
+    color: #F0F0F2;
 }
+
+
+
+/* Color Theme Swatches in Hex */
+.Flavour-1-hex { color: #F0F0F2; }
+.Flavour-2-hex { color: #253659; }
+.Flavour-3-hex { color: #8C5535; }
+.Flavour-4-hex { color: #D9967E; }
+.Flavour-5-hex { color: #8C2626; }
